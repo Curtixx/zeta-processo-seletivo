@@ -13,9 +13,11 @@
 - TypeScript
 - TypeORM
 
-## :hammer: Downloads nescessários
-- <a href="https://code.visualstudio.com/download">Visual Studio Code</a>
+## :hammer: Downloads nescessários para usar a API pública
 - <a href="https://insomnia.rest/download">Insomnia</a>
+## :hammer: Downloads nescessários para usar a API localmente
+- <a href="https://insomnia.rest/download">Insomnia</a>
+- <a href="https://code.visualstudio.com/download">Visual Studio Code</a>
 - <a href="https://dev.mysql.com/downloads/workbench/">Mysql Workbench</a>
 - <a href="https://www.apachefriends.org/download.html">XAMPP</a>
 - <a href="https://git-scm.com/download/win">Git</a>
