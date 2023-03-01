@@ -4,7 +4,7 @@
 - [Redes](https://github.com/Curtixx/zeta-processo-seletivo#redes)
 - [Deploy](https://github.com/Curtixx/zeta-processo-seletivo#deploy-da-api)
 - [Insomnia](https://github.com/Curtixx/zeta-processo-seletivo#usando-o-insomnia)
-- [Rotas](https://github.com/Curtixx/zeta-processo-seletivo#rotas-da-api)
+- [Rotas](https://github.com/Curtixx/zeta-processo-seletivo#rotas-para-uso-da-api)
 
 # Processo seletivo ZETA
 :unlock: Link para acessar a api: http://34.151.211.232
@@ -25,17 +25,17 @@
 ## Usando o insomnia
 
 - Abra o insomnia
-- Clique em create no canto superior direito
-- Clique na opção "Design Document"
-- Coloque o nome de sua preferência
-- Clique na opção "Debug" no canto superior da tela
-- Clique na setinha do lado do nome e do lado de "Design"
-- Vá ate "import/export"
-- Selecione "import" data e selecione "from file"
-- Escolha o arquivo .har que está na pasta do repositório
-- Clique em "Ok" e pronto você importou tudo que e preciso para fazer as requisições para a API
+  - [x] Clique em create no canto superior direito
+  - [x] Clique na opção "Design Document"
+  - [x] Coloque o nome de sua preferência
+  - [x] Clique na opção "Debug" no canto superior da tela
+  - [x] Clique na setinha do lado do nome e do lado de "Design"
+  - [x] Vá ate "import/export"
+  - [x] Selecione "import" data e selecione "from file"
+  - [x] Escolha o arquivo .har que está na pasta do repositório
+  - [x] Clique em "Ok" e pronto você importou tudo que e preciso para fazer as requisições para a API
 
-## Rotas da API
+## Rotas para uso da API
 
 - Na API desenvolvida foram utilizados metódos HTTP:
   - `GET`
