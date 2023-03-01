@@ -3,6 +3,7 @@
 # Sumário
 - [Redes](https://github.com/Curtixx/zeta-processo-seletivo#redes)
 - [Deploy](https://github.com/Curtixx/zeta-processo-seletivo#deploy-da-api)
+- [Deploy](https://github.com/Curtixx/zeta-processo-seletivo#usando-o-insomnia)
 
 # Processo seletivo ZETA
 :unlock: Link para acessar a api: http://34.151.211.232
@@ -20,7 +21,7 @@
 - <a href="https://nodejs.org/en/">Node.js</a>
 
 
-## :ledger: Usando o insomnia
+## Usando o insomnia
 
 - Abra o insomnia
 - Clique em create no canto superior direito
