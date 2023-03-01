@@ -4,6 +4,7 @@
 - [Redes](https://github.com/Curtixx/zeta-processo-seletivo#redes)
 - [Deploy](https://github.com/Curtixx/zeta-processo-seletivo#deploy-da-api)
 - [Insomnia](https://github.com/Curtixx/zeta-processo-seletivo#usando-o-insomnia)
+- [Rotas](https://github.com/Curtixx/zeta-processo-seletivo#rotas-da-api)
 
 # Processo seletivo ZETA
 :unlock: Link para acessar a api: http://34.151.211.232
@@ -34,10 +35,23 @@
 - Escolha o arquivo .har que está na pasta do repositório
 - Clique em "Ok" e pronto você importou tudo que e preciso para fazer as requisições para a API
 
-##
+## Rotas da API
+
+- Na API desenvolvida foram utilizados metódos HTTP:
+  - `GET`
+    - http://34.151.211.232/ : exibe todos os usuários cadastrados
+    - http://34.151.211.232/show/< id > : exibe o usuário filtrado pelo ID
+  - `POST`
+    - http://34.151.211.232/create : realiza o cadastro do usuário (obrigátorio o envio de um JSON no body)
+    - http://34.151.211.232/create : faz a criação do token para utilizar nas rotas de `update` e `delete` (obrigátorio o envio de um JSON no body)
+  - `PUT`
+    - http://34.151.211.232/update/< id > : realiza a alteração o usuário (obrigátorio o envio de um JSON no body e o token de autentificação)
+  - `DELETE`
+    - http://34.151.211.232/delete< id > : faz a exclusão (obrigátorio o envio do token de autentificação)
 
 ## :white_check_mark: Pronto, a API está pronta para ser usada 
 
+## 
 
 ## :house: Como rodar a API localmente
 
