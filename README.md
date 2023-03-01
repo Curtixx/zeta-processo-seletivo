@@ -72,6 +72,6 @@ Para o deploy da API foi usado
 - Foi bem legal essa experiência de estudar uma linguagem e ORM que eu nunca utilizei, agregou muito para meu conhecimento, no fim o esforço valeu a pena.
 - Obrigado pela a oportunidade Zeta Tecnologia e Inovação.
 
-## Redes
+## Redes :iphone:
 - <a href="https://www.linkedin.com/in/henrique-curtis-26325822a/">Linkedin</a>
 - <a href="https://github.com/Curtixx">GitHub</a>
