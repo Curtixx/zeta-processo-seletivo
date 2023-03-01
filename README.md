@@ -45,9 +45,9 @@
     - http://34.151.211.232/create : realiza o cadastro do usuário (obrigátorio o envio de um JSON no body)
     - http://34.151.211.232/create : faz a criação do token para utilizar nas rotas de `update` e `delete` (obrigátorio o envio de um JSON no body)
   - `PUT`
-    - http://34.151.211.232/update/< id > : realiza a alteração o usuário (obrigátorio o envio de um JSON no body e o token de autentificação)
+    - http://34.151.211.232/update/< id > : realiza a alteração o usuário (obrigátorio o envio de um JSON no body e o bearer token de autentificação no header)
   - `DELETE`
-    - http://34.151.211.232/delete< id > : faz a exclusão (obrigátorio o envio do token de autentificação)
+    - http://34.151.211.232/delete< id > : faz a exclusão (obrigátorio o envio do bearer token de autentificação no header)
 
 ## :white_check_mark: Pronto, a API está pronta para ser usada 
 
