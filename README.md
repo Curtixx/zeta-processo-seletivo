@@ -24,7 +24,7 @@
 ## Usando o insomnia
 
 - Abra o insomnia
-  - [x] Clique em create no canto superior direito
+  - [x] Clique em "create" no canto superior direito
   - [x] Clique na opção "Design Document"
   - [x] Coloque o nome de sua preferência
   - [x] Clique na opção "Debug" no canto superior da tela
