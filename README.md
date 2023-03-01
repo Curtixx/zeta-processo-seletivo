@@ -1,7 +1,7 @@
 ![api-rest](https://user-images.githubusercontent.com/96646020/222029250-7e003bc3-d551-40aa-b934-f0d85af9dcb1.png)
 
 # Sumário
-- [Redes](https://github.com/Curtixx/zeta-processo-seletivo#Redes)
+- [Redes](https://github.com/Curtixx/zeta-processo-seletivo#redes)
 
 # Processo seletivo ZETA
 :unlock: Link para acessar a api: http://34.151.211.232
@@ -72,6 +72,6 @@ Para o deploy da API foi usado
 - Foi bem legal essa experiência de estudar uma linguagem e ORM que eu nunca utilizei, agregou muito para meu conhecimento, no fim o esforço valeu a pena.
 - Obrigado pela a oportunidade Zeta Tecnologia e Inovação.
 
-## :iphone: Redes
+## Redes
 - <a href="https://www.linkedin.com/in/henrique-curtis-26325822a/">Linkedin</a>
 - <a href="https://github.com/Curtixx">GitHub</a>
