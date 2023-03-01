@@ -5,7 +5,7 @@
 - [Deploy](https://github.com/Curtixx/zeta-processo-seletivo#deploy-da-api)
 - [Insomnia](https://github.com/Curtixx/zeta-processo-seletivo#usando-o-insomnia)
 - [Rotas](https://github.com/Curtixx/zeta-processo-seletivo#rotas-para-uso-da-api)
-
+- [Banco de dados](https://github.com/Curtixx/zeta-processo-seletivo#banco-de-dados)
 # Processo seletivo ZETA
 :unlock: Link para acessar a api: http://34.151.211.232
 ## :open_file_folder: Tecnologias utilizadas:
