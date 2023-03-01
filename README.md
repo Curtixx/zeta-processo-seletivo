@@ -2,6 +2,7 @@
 
 # Sumário
 - [Redes](https://github.com/Curtixx/zeta-processo-seletivo#redes)
+- [Deploy](https://github.com/Curtixx/zeta-processo-seletivo#deploy)
 
 # Processo seletivo ZETA
 :unlock: Link para acessar a api: http://34.151.211.232
@@ -62,7 +63,7 @@
 
 ## :white_check_mark: Pronto, a API está pronta para ser usada localmente
 
-## :computer: Deploy da API
+## Deploy da API
 Para o deploy da API foi usado
   - Um servidor linux criado no - <a href="https://cloud.google.com/?utm_source=google&utm_medium=cpc&utm_campaign=latam-BR-all-pt-dr-BKWS-all-all-trial-e-dr-1605194-LUAC0010101&utm_content=text-ad-none-any-DEV_c-CRE_512285710734-ADGP_Hybrid%20%7C%20BKWS%20-%20EXA%20%7C%20Txt%20~%20GCP_General-KWID_43700062788251524-kwd-301173107504&utm_term=KW_google%20cloud%20platform-ST_Google%20Cloud%20Platform&gclid=Cj0KCQiA6fafBhC1ARIsAIJjL8lpKfKSJ0TI3EO_myQIjJpj9zWIVfRijP8b7VkrQxQOVpqtKY6Vh3EaAj8hEALw_wcB&gclsrc=aw.ds&hl=pt-br">Google Cloud Plataform</a>
   - Docker para criação do container do banco de dados mariadb
