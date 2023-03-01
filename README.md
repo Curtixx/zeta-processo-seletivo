@@ -18,10 +18,8 @@
 - TypeORM
 
 ## :hammer: Downloads nescessários para usar a API pública
+- Faça download do repositório (<a href="https://github.com/Curtixx/zeta-processo-seletivo">Download</a>)
 - <a href="https://insomnia.rest/download">Insomnia</a>
-
-
-
 
 ## Usando o insomnia
 
