@@ -19,13 +19,8 @@
 
 ## :hammer: Downloads nescessários para usar a API pública
 - <a href="https://insomnia.rest/download">Insomnia</a>
-## :hammer: Downloads nescessários para usar a API localmente
-- <a href="https://insomnia.rest/download">Insomnia</a>
-- <a href="https://code.visualstudio.com/download">Visual Studio Code</a>
-- <a href="https://dev.mysql.com/downloads/workbench/">Mysql Workbench</a>
-- <a href="https://www.apachefriends.org/download.html">XAMPP</a>
-- <a href="https://git-scm.com/download/win">Git</a>
-- <a href="https://nodejs.org/en/">Node.js</a>
+
+
 
 
 ## Usando o insomnia
@@ -59,7 +54,13 @@
 
 
 ## :house: Como rodar a API localmente
-
+- Baixe todas essas dependencias:
+  - <a href="https://insomnia.rest/download">Insomnia</a>
+  - <a href="https://code.visualstudio.com/download">Visual Studio Code</a>
+  - <a href="https://dev.mysql.com/downloads/workbench/">Mysql Workbench</a>
+  - <a href="https://www.apachefriends.org/download.html">XAMPP</a>
+  - <a href="https://git-scm.com/download/win">Git</a>
+  - <a href="https://nodejs.org/en/">Node.js</a>
 - Faça download do repositório (<a href="https://github.com/Curtixx/zeta-processo-seletivo">Download</a>)
 - Abra algum terminal na pasta do repositório e rode os comandos:
   - Crie uma nova conexão no MysqlWorkbech com a configuração padrão
