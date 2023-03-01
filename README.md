@@ -2,7 +2,7 @@
 
 # Sumário
 - [Redes](https://github.com/Curtixx/zeta-processo-seletivo#redes)
-- [Deploy](https://github.com/Curtixx/zeta-processo-seletivo#deploy)
+- [Deploy](https://github.com/Curtixx/zeta-processo-seletivo#deploy-da-api)
 
 # Processo seletivo ZETA
 :unlock: Link para acessar a api: http://34.151.211.232
