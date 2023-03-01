@@ -1,5 +1,7 @@
 ![api-rest](https://user-images.githubusercontent.com/96646020/222029250-7e003bc3-d551-40aa-b934-f0d85af9dcb1.png)
 
+# Sumário
+- [Redes](https://github.com/Curtixx/zeta-processo-seletivo#Redes)
 
 # Processo seletivo ZETA
 :unlock: Link para acessar a api: http://34.151.211.232
@@ -52,7 +54,8 @@
   - Por padrão ele vem configurado com a url da API que já foi feito o deploy
   - Para mudar troque tudo que está com "http://34.151.211.232" para "http://localhost:3000"
   - Caso ocorra algum erro, verifique se o XAMPP está ligado e se o migration foi rodada corretamente
-  - O programa so irá executar quando o banco estiver pronto, se o banco estiver mal configurado ou sem alguma credencial ele nao executará
+  - O programa so irá executar quando o banco estiver pronto, se o banco estiver mal configurado ou sem alguma credencial ele 
+  executará
 - Nas rotas de show, update e delete onde fica a url tem um "ID" apague e coloque o ID do usuário 
 
 ##
