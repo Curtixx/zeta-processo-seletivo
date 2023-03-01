@@ -49,7 +49,7 @@
     - http://34.151.211.232/< id > : realiza a alteração o usuário (obrigátorio o envio de um JSON no body com os campo que deseja alterar e o bearer token de autentificação no header)
   - `DELETE`
     - http://34.151.211.232/< id > : faz a exclusão (obrigátorio o envio do bearer token de autentificação no header)
-
+- [Exemplo de criação de usuário](https://github.com/Curtixx/zeta-processo-seletivo#exemplo-para-criar-um-usuario-na-api)
 ## :white_check_mark: Pronto, a API está pronta para ser usada 
 
 
@@ -96,6 +96,17 @@
 ##
 
 ## :white_check_mark: Pronto, a API está pronta para ser usada localmente
+
+## Exemplo para criar um usuário na API
+
+- Vá na rota `create` e use a seguinte sintaxe:
+  - {
+   - "nome": "<nome-do-usuário>",
+   - "sobrenome": "<sobrenome-do-usuário>",
+   - "idade": <idade-do-usuário>,
+   - "email": "<email-do-usuário>",
+   - "senha": "<senha-do-usuário>",
+  - }
 
 ## Deploy da API
 Para o deploy da API foi usado
