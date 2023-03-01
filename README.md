@@ -37,21 +37,20 @@
 
 ## Rotas para uso da API
 
-- Na API desenvolvida foram utilizados metódos HTTP:
+- Na API desenvolvida foram utilizados os seguintes métodos HTTP:
   - `GET`
     - http://34.151.211.232/ : exibe todos os usuários cadastrados
     - http://34.151.211.232/show/< id > : exibe o usuário filtrado pelo ID
   - `POST`
-    - http://34.151.211.232/create : realiza o cadastro do usuário (obrigátorio o envio de um JSON no body)
-    - http://34.151.211.232/create : faz a criação do token para utilizar nas rotas de `update` e `delete` (obrigátorio o envio de um JSON no body)
+    - http://34.151.211.232/create : realiza o cadastro do usuário (obrigátorio o envio de um JSON no body com as informações: `nome`, `sobrenome`, `idade`, `email` e `senha`
+    - http://34.151.211.232/token : faz a criação do token para utilizar nas rotas de `update` e `delete` (obrigátorio o envio de um JSON no body com o `email` e a `senha` do usuário)
   - `PUT`
-    - http://34.151.211.232/update/< id > : realiza a alteração o usuário (obrigátorio o envio de um JSON no body e o bearer token de autentificação no header)
+    - http://34.151.211.232/< id > : realiza a alteração o usuário (obrigátorio o envio de um JSON no body com os campo que deseja alterar e o bearer token de autentificação no header)
   - `DELETE`
-    - http://34.151.211.232/delete< id > : faz a exclusão (obrigátorio o envio do bearer token de autentificação no header)
+    - http://34.151.211.232/< id > : faz a exclusão (obrigátorio o envio do bearer token de autentificação no header)
 
 ## :white_check_mark: Pronto, a API está pronta para ser usada 
 
-## 
 
 ## :house: Como rodar a API localmente
 
@@ -64,6 +63,19 @@
   - `npm run migration:run` para crias as tabelas no banco
   - `npm run dev` executar o projeto
   
+## Banco de dados
+- Para a escolha do banco de dados foi escolhido o MySQL, pela facilidade para usar e por ele ser mais rapido que os demais SGBD'S
+- No servidor linux (onde foi usado para fazer o deploy da API) foi criado um container mariaDB com o Docker com a porta direcionada para a "3306"
+- No MysqlWorkbench a conexão foi mais simples ainda, apenas tive que colocar o IP do servidor no HostName, deixar a porta como "3306" e o UserName para "root"
+- Com a conexão estabelecida foi criado o database "zeta"
+- Pronto, o banco de dados já estava criado
+- A tabela utilizada e a "users" que tem os seguintes campos e tipos:
+  - `id`: int, autoincrement
+  - `nome`: varchar, not null
+  - `sobrenome`: varchar, not null
+  - `idade`: int, not null
+  - `email`: varchar, not null
+  - `senha`: varchar, not null
 
 ## :warning: Observações
 - Para rodar localmente
