@@ -7,7 +7,11 @@
 - [Rotas](https://github.com/Curtixx/zeta-processo-seletivo#rotas-para-uso-da-api)
 - [Banco de dados](https://github.com/Curtixx/zeta-processo-seletivo#banco-de-dados)
 # Processo seletivo ZETA
+<p>
+<img src="http://img.shields.io/static/v1?label=STATUS&message=PRONTA%20PRA%20USO&color=GREEN&style=for-the-badge"/>
+</p>
 :unlock: Link para acessar a api: http://34.151.211.232
+
 ## :open_file_folder: Tecnologias utilizadas:
 - Node.js
 - TypeScript
