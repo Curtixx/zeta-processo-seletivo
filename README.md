@@ -87,7 +87,7 @@
 ## :warning: Observações
 - Para rodar localmente
   - Por padrão ele vem configurado com a url da API que já foi feito o deploy
-  - Para mudar troque tudo que está com "http://34.151.211.232" para "http://localhost:3000 no insomnia"
+  - Para mudar troque tudo que está com "http://34.151.211.232" para "http://localhost:3000" no insomnia
   - Caso ocorra algum erro, verifique se o XAMPP está ligado e se o migration foi rodada corretamente
   - `O programa so irá executar quando o banco estiver pronto, se o banco estiver mal configurado ou sem alguma credencial ele não
   executará a aplicação`
