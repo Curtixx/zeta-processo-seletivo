@@ -70,7 +70,18 @@
   - `npm i` para baixar as dependências
   - `npm run migration:run` para crias as tabelas no banco
   - `npm run dev` executar o projeto
-  
+ 
+## :white_check_mark: Pronto, a API está pronta para ser usada localmente
+
+## :warning: Observações
+- Para rodar localmente
+  - Por padrão ele vem configurado com a url da API que já foi feito o deploy
+  - Para mudar troque tudo que está com "http://34.151.211.232" para "http://localhost:3000" no insomnia
+  - Caso ocorra algum erro, verifique se o XAMPP está ligado e se o migration foi rodada corretamente
+  - `O programa so irá executar quando o banco estiver pronto, se o banco estiver mal configurado ou sem alguma credencial ele não
+  executará a aplicação`
+- Nas rotas show, update e delete onde fica a url tem um "ID" apague e coloque o ID referente ao usuário 
+
 ## Banco de dados
 - Para a escolha do banco de dados foi escolhido o MySQL, pela facilidade para utiliza-lo e por ele ser mais rapido que os demais SGBD'S
 - No servidor linux (onde foi usado para fazer o deploy da API) foi criado um container mariaDB com o Docker com a porta direcionada para a "3306"
@@ -85,18 +96,6 @@
   - `email:` varchar, not null
   - `senha:` varchar, not null
 
-## :warning: Observações
-- Para rodar localmente
-  - Por padrão ele vem configurado com a url da API que já foi feito o deploy
-  - Para mudar troque tudo que está com "http://34.151.211.232" para "http://localhost:3000" no insomnia
-  - Caso ocorra algum erro, verifique se o XAMPP está ligado e se o migration foi rodada corretamente
-  - `O programa so irá executar quando o banco estiver pronto, se o banco estiver mal configurado ou sem alguma credencial ele não
-  executará a aplicação`
-- Nas rotas show, update e delete onde fica a url tem um "ID" apague e coloque o ID referente ao usuário 
-
-##
-
-## :white_check_mark: Pronto, a API está pronta para ser usada localmente
 
 ## Como criar um usuário na API
 
