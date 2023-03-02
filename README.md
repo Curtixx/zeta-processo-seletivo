@@ -70,7 +70,7 @@
   - `npm i` para baixar as dependências
   - `npm run migration:run` para crias as tabelas no banco
   - `npm run dev` executar o projeto
- 
+  - Agora e so seguir o passo a passo do [Insomnia](https://github.com/Curtixx/zeta-processo-seletivo#usando-o-insomnia)
 ## :white_check_mark: Pronto, a API está pronta para ser usada localmente
 
 ## :warning: Observações
