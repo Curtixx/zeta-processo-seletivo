@@ -26,9 +26,9 @@
 - Abra o insomnia
   - [x] Clique em "create" no canto superior direito
   - [x] Clique na opção "Design Document"
-  - [x] Coloque o nome de sua preferência
-  - [x] Clique na opção "Debug" no canto superior da tela
-  - [x] Clique na setinha do lado do nome e do lado de "Design"
+  - [x] Coloque o nome de sua preferência e confirma
+  - [x] Clique na opção "Debug" no meio superior da tela
+  - [x] Clique na "setinha" do lado do nome e do lado de "Design"
   - [x] Vá ate "import/export"
   - [x] Selecione "import data" e clique em "from file"
   - [x] Escolha o arquivo .har que está na pasta do repositório
@@ -48,6 +48,8 @@
   - `DELETE`
     - http://34.151.211.232/< id > : faz a exclusão (obrigátorio o envio do bearer token de autenticação no header)
 - [Exemplo de criação de usuário](https://github.com/Curtixx/zeta-processo-seletivo#como-criar-um-usuário-na-api)
+- Como colocar o Bearer Token:
+  - Vá na aba "Headers" nas rotas put e delete vai possuir um campo chamado "Authorization" e do lado está o seu token, quando criar um novo token você vai apagar tudo que vem depois da palavra "Bearer" e colocar o token
 ## :white_check_mark: Pronto, a API está pronta para ser usada 
 
 
