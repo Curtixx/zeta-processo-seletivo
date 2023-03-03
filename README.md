@@ -17,6 +17,7 @@
 - TypeScript
 - TypeORM
 - JWT
+- Docker
 
 ## :hammer: Downloads nescessários para usar a API pública
 - <a href="https://github.com/Curtixx/zeta-processo-seletivo">Repisitório do projeto</a>
